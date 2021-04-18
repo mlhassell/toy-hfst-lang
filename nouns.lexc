@@ -1,0 +1,57 @@
+Multichar_Symbols
++NM +NF +Sg +Pl +Nom +Gen +Dat +Acc +Ins +Loc +Voc
+
+! Lexicon containing lexical stems
+LEXICON Root
+    vyr NM ; ! man/husband
+    berniuk NM ; ! boy
+    žmon NF ; ! wife
+    mergin NF ; ! girl
+    book NF ; ! book
+    dien NF ; ! day
+    vakar NM ; ! evening
+    ryt NM ; ! morning
+    maist NM ; ! food
+    biblij NF ; ! Bible
+
+! Lexicon containing POS tag for masculine
+LEXICON NM
++NM: NM-suff ;
+
+! Lexicon containing POS tag for feminine
+LEXICON NF
++NF: NF-suff ;
+
+! Lexicon containing inflectional suffixes for masculine nouns
+LEXICON NM-suff
++Sg+Nom:as # ;
++Sg+Gen:o # ;
++Sg+Dat:ui # ;
++Sg+Acc:ą # ;
++Sg+Ins:u # ;
++Sg+Loc:e # ;
++Sg+Voc:e # ;
++Pl+Nom:ai # ;
++Pl+Gen:ų # ;
++Pl+Dat:ams # ;
++Pl+Acc:us # ;
++Pl+Ins:ais # ;
++Pl+Loc:uose # ;
++Pl+Voc:ai # ;
+
+! Lexicon containing inflectional suffixes for feminine nouns
+LEXICON NF-suff
++Sg+Nom:a # ;
++Sg+Gen:os # ;
++Sg+Dat:ai # ;
++Sg+Acc:ą # ;
++Sg+Ins:a # ;
++Sg+Loc:oje # ;
++Sg+Voc:a # ;
++Pl+Nom:os # ;
++Pl+Gen:ų # ;
++Pl+Dat:oms # ;
++Pl+Acc:as # ;
++Pl+Ins:omis # ;
++Pl+Loc:ose # ;
++Pl+Voc:os # ;
