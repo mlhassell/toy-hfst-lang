@@ -1,0 +1,57 @@
+Multichar_Symbols
++V1 +V2 +V3 +Pres +Past +1Sg +2Sg +3Sg
+
+!Lexicon containing lexical stems:
+LEXICON Root
+    sak V3 ; ! talk
+    myl V2 ; ! love
+    dar V3 ; ! do
+    valg V3 ; ! eat
+    laimin V1 ; ! bless
+    praš V3 ; ! ask
+    tur V2 ; ! have
+    nor V2 ; ! want
+    gal V2 ; ! able/con
+    raš V3 ; ! write
+    skait V3 ; ! read
+    gyven V1 ; ! live
+    galvoj V1; ! think    
+
+! Lexicon for V1 POS tag
+LEXICON V1 
++V1: V1-suff ;
+
+! Lexicon for V2 POS tag
+LEXICON V2 
++V2: V2-suff ;
+
+! Lexicon for V3 POS tag
+LEXICON V3
++V3: V3-suff ;
+
+! Lexicon containing class 1 inflectional suffixes and tags:
+LEXICON V1-suff
++Pres+1Sg:u # ;
++Pres+2Sg:i # ;
++Pres+3Sg:a # ;
++Past+1Sg:au # ;
++Past+2Sg:ai # ;
++Past+3Sg:o # ;
+
+! Lexicon containing class 2 inflectional suffixes and tags:
+LEXICON V2-suff
++Pres+1Sg:iu # ;
++Pres+2Sg:i # ;
++Pres+3Sg:i # ;
++Past+1Sg:ėjau # ;
++Past+2Sg:ėjai # ;
++Past+3Sg:ėjo # ;
+
+! Lexicon containing class 3 inflectional suffixes and tags:
+LEXICON V3-suff
++Pres+1Sg:au # ;
++Pres+2Sg:ai # ;
++Pres+3Sg:o # ;
++Past+1Sg:iau # ;
++Past+2Sg:ei # ;
++Past+3Sg:ė # ;
